@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My custom Bulma website</title>
+    <link rel="stylesheet" href="css/mystyles.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Nav-bar -->
+    <nav class="navbar is-transparent navbar is-fixed-top">
+      <div class="navbar-brand">
+        <a class="navbar-item">
+          <img
+            src="./images/new-microsoft-2012-logo-vector-free-download-11574247620ffgscpm8is.png"
+            alt=""
+          />
+        </a>
+
+        <!-- hambureger menu -->
+
+        <div
+          class="navbar-burger"
+          data-target="navbarExampleTransparentExample"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+
+      <div id="navbarExampleTransparentExample" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item" href="https://bulma.io/"> Home </a>
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a
+              class="navbar-link"
+              href="https://bulma.io/documentation/overview/start/"
+            >
+              Docs
+            </a>
+            <div class="navbar-dropdown is-boxed">
+              <a
+                class="navbar-item"
+                href="https://bulma.io/documentation/overview/start/"
+              >
+                Overview
+              </a>
+              <a
+                class="navbar-item"
+                href="https://bulma.io/documentation/overview/modifiers/"
+              >
+                Modifiers
+              </a>
+              <a
+                class="navbar-item"
+                href="https://bulma.io/documentation/columns/basics/"
+              >
+                Columns
+              </a>
+              <a
+                class="navbar-item"
+                href="https://bulma.io/documentation/layout/container/"
+              >
+                Layout
+              </a>
+              <a
+                class="navbar-item"
+                href="https://bulma.io/documentation/form/general/"
+              >
+                Form
+              </a>
+              <hr class="navbar-divider" />
+              <a
+                class="navbar-item"
+                href="https://bulma.io/documentation/elements/box/"
+              >
+                Elements
+              </a>
+              <a
+                class="navbar-item is-active"
+                href="https://bulma.io/documentation/components/breadcrumb/"
+              >
+                Components
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <div class="field is-grouped">
+              <p class="control">
+                <a
+                  class="bd-tw-button button"
+                  data-social-network="Twitter"
+                  data-social-action="tweet"
+                  data-social-target="https://bulma.io"
+                  target="_blank"
+                  href="https://twitter.com/intent/tweet?text=Bulma: a modern CSS framework based on Flexbox&amp;hashtags=bulmaio&amp;url=https://bulma.io&amp;via=jgthms"
+                >
+                  <span class="icon">
+                    <i class="fab fa-twitter"></i>
+                  </span>
+                  <span> Tweet </span>
+                </a>
+              </p>
+              <p class="control">
+                <a
+                  class="button is-primary"
+                  href="https://github.com/jgthms/bulma/releases/download/0.9.3/bulma-0.9.3.zip"
+                >
+                  <span class="icon">
+                    <i class="fas fa-download"></i>
+                  </span>
+                  <span>Download</span>
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- hero -->
+
+    <section class="hero is-large">
+      <img
+        src="./images/hero_animation_poster_4K_Sharpened.jpg"
+        alt=""
+        style="min-height: 300px"
+      />
+    </section>
+
+    <!-- text and video section -->
+
+    <section class="section mt-6" style="margin: 0 auto">
+      <!-- middle text 01 -->
+
+      <div class="container" style="margin: 0 auto">
+        <h1 class="title is-1 has-text-centered">Introducing Windows 11</h1>
+        <p class="has-text-centered">
+          A new Windows experience, bringing you closer to the people and things
+          you love.
+        </p>
+      </div>
+
+      <!-- video image -->
+
+      <div class="container mt-6">
+        <img src="./images/1920_Panel03_Video_Introducing_new.jpg" alt="" />
+      </div>
+
+      <!-- middle text 2 -->
+
+      <div class="container mt-6 mb-6" style="margin: 0 auto">
+        <h1 class="title is-1 has-text-centered">Get a fresh perspective</h1>
+        <p class="has-text-centered">
+          Windows 11 provides a calm and creative space where you can pursue
+          your passions through a fresh experience. From a rejuvenated Start
+          menu to new ways to connect to your favorite people, news, games, and
+          content—Windows 11 is the place to think, express, and create in a
+          natural way
+        </p>
+      </div>
+    </section>
+
+    <!-- colun section 1 -->
+
+    <section class="section">
+      <div class="container">
+        <div class="columns">
+          <div class="column" style="margin: 0 auto">
+            <div style="margin: 0 auto; padding-top: 200px; width: 400px">
+              <h3 class="title is-3 has-text-centered">
+                Maximize your productivity
+              </h3>
+              <p class="has-text-left">
+                Access all the apps you need and multi-task with ease with tools
+                like Snap layouts, Desktops, and a new more-intuitive redocking
+                experience.
+              </p>
+            </div>
+          </div>
+          <div class="column">
+            <img src="./images/Screenshot 2021-07-03 113247.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- column section-2 -->
+
+    <section class="section">
+      <div class="container">
+        <div class="columns">
+          <div class="column is-6">
+            <img src="./images/Screenshot 2021-07-03 113129.png" alt="" />
+          </div>
+          <div style="margin: 0 auto; padding-top: 200px; width: 400px">
+            <h3 class="title is-3 has-text-centered">
+              New ways to connect
+            </h3>
+            <p class="has-text-left">
+              Connect instantly to the people you care about right from your desktop with Microsoft Teams. Call or chat for free—no matter what device they’re on
+            </p>
+          </div>
+        </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- mid image 2 -->
+
+    <section class="section mt-4">
+
+      <div class="ml-4 mt-6">
+        <h1 class="title is-1">Your content, curated by you</h1>
+        <p>With Microsoft Edge and a multitude of Widgets you can choose from, you can quickly stay up to date with the news, information, and entertainment that matters most to you.2 Easily find the apps you need and the shows you love to watch in the new Microsoft Store.</p>
+      </div>
+      <div class="mt-6">
+        <img src="./images/1920_Panel08_Picture_Content_new (1).jpg" alt="">
+      </div>
+
+      <div class="has-text-centered mt-5">
+        <img src="./images/1920_Panel09_Logo_GamePass.jpg" alt="">
+      </div>
+
+      <div class="has-text-centered">
+        <h1 class="title is-2" style="color: black;">Playtime. Anytime.</h1>
+        <p>Windows 11 takes gaming to a whole new level with graphic capabilities that rival reality.4 Discover your next favorite game with Xbox Game Pass, giving you access to over 100 high-quality games (membership sold separately)</p>
+      </div>
+
+      <div class="mt-6">
+        <img src="./images/1920_Panel10_Picture_Playtime_V2-alt.jpg" alt="">
+      </div>
+
+      <div class=" mt-6" style="width: 100%; margin: 0 auto;">
+        <h1 class="title is-3" style="color: black;">A PC for each of us</h1>
+        <p>The new Windows is available on the widest array of devices, from our partners who are bringing you the latest innovations in touch, pen, and voice, making it easy to find the best, most affordable device for you</p>
+      </div>
+      <div class="mt-4">
+        <img src="./images/1920_Panel12_Picture_Devices.jpg" alt="">
+      </div>
+
+
+
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="columns">
+          <div class="column is-6">
+            <img src="./images/1920_Panel13_DefaultFeature_Find (1).jpg" alt="">
+          </div>
+
+          <div class="column is-6">
+            <div style=" padding-top: 120px; width: 400px">
+              <h3 class="title is-3 has-text-left">
+                Find the right PC for you
+              </h3>
+              <p class="has-text-left">
+                Access all the apps you need and multi-task with ease with tools
+                like Snap layouts, Desktops, and a new more-intuitive redocking
+                experience.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
